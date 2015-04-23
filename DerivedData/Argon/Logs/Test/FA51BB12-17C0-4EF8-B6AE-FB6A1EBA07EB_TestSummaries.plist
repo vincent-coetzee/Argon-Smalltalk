@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>4294</integer>
+			<key>CPUCount</key>
+			<integer>2</integer>
+			<key>CPUKind</key>
+			<string>6-Core Intel Xeon</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2400</integer>
+			<key>Identifier</key>
+			<string>3DDAE5E5-A15A-5B63-A2D3-4ECC68E52444</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>12</integer>
+			<key>ModelCode</key>
+			<string>MacPro5,1</string>
+			<key>ModelName</key>
+			<string>Mac Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macpro</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.10.1</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.10.1 (14B25)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>6</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>OS X</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>12288</integer>
+		</dict>
+		<key>Name</key>
+		<string>My Mac</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>4294</integer>
+			<key>CPUCount</key>
+			<integer>2</integer>
+			<key>CPUKind</key>
+			<string>6-Core Intel Xeon</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2400</integer>
+			<key>Identifier</key>
+			<string>3DDAE5E5-A15A-5B63-A2D3-4ECC68E52444</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>12</integer>
+			<key>ModelCode</key>
+			<string>MacPro5,1</string>
+			<key>ModelName</key>
+			<string>Mac Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macpro</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.10.1</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.10.1 (14B25)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>6</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>OS X</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>12288</integer>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>macosx10.10</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>OS X 10.10</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.10</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>ProjectPath</key>
+			<string>Argon.xcodeproj</string>
+			<key>TargetName</key>
+			<string>ArgonTests</string>
+			<key>TestName</key>
+			<string>ArgonTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>TestIdentifier</key>
+											<string>ARVMTests/testBasicObjects</string>
+											<key>TestName</key>
+											<string>testBasicObjects</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>BB81AE64-9025-470C-A2E1-E9EA56EF700A</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>ARVMTests</string>
+									<key>TestName</key>
+									<string>ARVMTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>ArgonTests.xctest</string>
+							<key>TestName</key>
+							<string>ArgonTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>All tests</string>
+					<key>TestName</key>
+					<string>All tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

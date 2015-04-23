@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>4294</integer>
+			<key>CPUCount</key>
+			<integer>2</integer>
+			<key>CPUKind</key>
+			<string>6-Core Intel Xeon</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2400</integer>
+			<key>Identifier</key>
+			<string>3DDAE5E5-A15A-5B63-A2D3-4ECC68E52444</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>12</integer>
+			<key>ModelCode</key>
+			<string>MacPro5,1</string>
+			<key>ModelName</key>
+			<string>Mac Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macpro</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.10.1</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.10.1 (14B25)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>6</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>OS X</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>12288</integer>
+		</dict>
+		<key>Name</key>
+		<string>My Mac</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>4294</integer>
+			<key>CPUCount</key>
+			<integer>2</integer>
+			<key>CPUKind</key>
+			<string>6-Core Intel Xeon</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2400</integer>
+			<key>Identifier</key>
+			<string>3DDAE5E5-A15A-5B63-A2D3-4ECC68E52444</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>12</integer>
+			<key>ModelCode</key>
+			<string>MacPro5,1</string>
+			<key>ModelName</key>
+			<string>Mac Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macpro</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.10.1</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.10.1 (14B25)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>6</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>OS X</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>12288</integer>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>macosx10.10</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>OS X 10.10</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.10</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>ProjectPath</key>
+			<string>Argon.xcodeproj</string>
+			<key>TargetName</key>
+			<string>ArgonTests</string>
+			<key>TestName</key>
+			<string>ArgonTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>TestIdentifier</key>
+											<string>ARVMTests/testBasicObjects</string>
+											<key>TestName</key>
+											<string>testBasicObjects</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>3D100651-E6A6-47C4-8EB7-9614F25F402C</string>
+										</dict>
+										<dict>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/vincent/Development2015/Argon/ArgonTests/ARVMTests.m</string>
+													<key>LineNumber</key>
+													<integer>85</integer>
+													<key>Message</key>
+													<string>(([[dict valueForKey: key1] isEqual: value1]) is true) failed - Value for key Vincent should be Vincent-Value</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>ARVMTests/testDictionaries</string>
+											<key>TestName</key>
+											<string>testDictionaries</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>AB48E242-09D1-4082-A7C3-50241D9A0184</string>
+										</dict>
+										<dict>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/vincent/Development2015/Argon/ArgonTests/ARVMTests.m</string>
+													<key>LineNumber</key>
+													<integer>124</integer>
+													<key>Message</key>
+													<string>failed: caught "NSInvalidArgumentException", "-[ARVM executeInstructionVector:]: unrecognized selector sent to instance 0x10060d6d0"
+(
+	0   CoreFoundation                      0x00007fff96bfa64c __exceptionPreprocess + 172
+	1   libobjc.A.dylib                     0x00007fff916d46de objc_exception_throw + 43
+	2   CoreFoundation                      0x00007fff96bfd6bd -[NSObject(NSObject) doesNotRecognizeSelector:] + 205
+	3   CoreFoundation                      0x00007fff96b44a84 ___forwarding___ + 1028
+	4   CoreFoundation                      0x00007fff96b445f8 _CF_forwarding_prep_0 + 120
+	5   ArgonTests                          0x000000010011349b -[ARVMTests testInstructionArray] + 187
+	6   CoreFoundation                      0x00007fff96ad333c __invoking___ + 140
+	7   CoreFoundation                      0x00007fff96ad3192 -[NSInvocation invoke] + 290
+	8   XCTest                              0x0000000100121919 -[XCTestCase invokeTest] + 253
+	9   XCTest                              0x0000000100121b1a -[XCTestCase performTest:] + 150
+	10  XCTest                              0x000000010012a700 -[XCTest run] + 257
+	11  XCTest                              0x000000010012082b -[XCTestSuite performTest:] + 379
+	12  XCTest                              0x000000010012a700 -[XCTest run] + 257
+	13  XCTest                              0x000000010012082b -[XCTestSuite performTest:] + 379
+	14  XCTest                              0x000000010012a700 -[XCTest run] + 257
+	15  XCTest                              0x000000010012082b -[XCTestSuite performTest:] + 379
+	16  XCTest                              0x000000010012a700 -[XCTest run] + 257
+	17  XCTest                              0x000000010011d83c __25-[XCTestDriver _runSuite]_block_invoke + 56
+	18  XCTest                              0x000000010012936d -[XCTestObservationCenter _observeTestExecutionForBlock:] + 162
+	19  XCTest                              0x000000010011d770 -[XCTestDriver _runSuite] + 269
+	20  XCTest                              0x000000010011e359 -[XCTestDriver _checkForTestManager] + 678
+	21  XCTest                              0x000000010012d5b0 +[XCTestProbe runTests:] + 182
+	22  Foundation                          0x00007fff8ebcbabb __NSFireDelayedPerform + 364
+	23  CoreFoundation                      0x00007fff96b4db44 __CFRUNLOOP_IS_CALLING_OUT_TO_A_TIMER_CALLBACK_FUNCTION__ + 20
+	24  CoreFoundation                      0x00007fff96b4d7d3 __CFRunLoopDoTimer + 1059
+	25  CoreFoundation                      0x00007fff96bc0d9d __CFRunLoopDoTimers + 301
+	26  CoreFoundation                      0x00007fff96b0a268 __CFRunLoopRun + 2024
+	27  CoreFoundation                      0x00007fff96b09838 CFRunLoopRunSpecific + 296
+	28  HIToolbox                           0x00007fff99a6043f RunCurrentEventLoopInMode + 235
+	29  HIToolbox                           0x00007fff99a600be ReceiveNextEventCommon + 179
+	30  HIToolbox                           0x00007fff99a5fffb _BlockUntilNextEventMatchingListInModeWithFilter + 71
+	31  AppKit                              0x00007fff98b466d1 _DPSNextEvent + 964
+	32  AppKit                              0x00007fff98b45e80 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 194
+	33  AppKit                              0x00007fff98b39e23 -[NSApplication run] + 594
+	34  AppKit                              0x00007fff98b252d4 NSApplicationMain + 1832
+	35  Argon                               0x000000010000fc1e main + 78
+	36  libdyld.dylib                       0x00007fff8ffd05c9 start + 1
+)</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>ARVMTests/testInstructionArray</string>
+											<key>TestName</key>
+											<string>testInstructionArray</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>FA3FAB8F-4CE6-4B1E-939C-8A00AEA914A5</string>
+										</dict>
+										<dict>
+											<key>PerformanceMetrics</key>
+											<array>
+												<dict>
+													<key>Identifier</key>
+													<string>com.apple.XCTPerformanceMetric_WallClockTime</string>
+													<key>MaxPercentRegression</key>
+													<integer>10</integer>
+													<key>MaxPercentRelativeStandardDeviation</key>
+													<integer>10</integer>
+													<key>MaxRegression</key>
+													<real>0.10000000000000001</real>
+													<key>MaxStandardDeviation</key>
+													<real>0.10000000000000001</real>
+													<key>Measurements</key>
+													<array>
+														<real>2.3034e-05</real>
+														<real>4.6770000000000003e-06</real>
+														<real>3.9489999999999998e-06</real>
+														<real>4.143e-06</real>
+														<real>3.9249999999999997e-06</real>
+														<real>4.121e-06</real>
+														<real>3.5920000000000001e-06</real>
+														<real>4.2710000000000003e-06</real>
+														<real>4.0539999999999996e-06</real>
+														<real>3.692e-06</real>
+													</array>
+													<key>Name</key>
+													<string>Time</string>
+													<key>UnitOfMeasurement</key>
+													<string>seconds</string>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>ARVMTests/testStringPerformance</string>
+											<key>TestName</key>
+											<string>testStringPerformance</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>693D982F-1A2C-485C-B460-9340D542B614</string>
+										</dict>
+										<dict>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/vincent/Development2015/Argon/ArgonTests/ARVMTests.m</string>
+													<key>LineNumber</key>
+													<integer>54</integer>
+													<key>Message</key>
+													<string>((string1.isBytes == YES) is true) failed - String should be a byte object class</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>ARVMTests/testStrings</string>
+											<key>TestName</key>
+											<string>testStrings</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>8A3756BB-380E-4325-BF3A-1945492F25D3</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>ARVMTests</string>
+									<key>TestName</key>
+									<string>ARVMTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>ArgonTests.xctest</string>
+							<key>TestName</key>
+							<string>ArgonTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>All tests</string>
+					<key>TestName</key>
+					<string>All tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

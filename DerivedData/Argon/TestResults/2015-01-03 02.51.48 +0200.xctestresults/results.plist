@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Results</key>
+	<array>
+		<dict>
+			<key>Provider Name</key>
+			<string>Argon</string>
+			<key>Testable Name</key>
+			<string>ArgonTests</string>
+			<key>Testable Tests</key>
+			<array>
+				<dict>
+					<key>Test Identifier</key>
+					<string>ARMemoryTests/testPerformanceExample</string>
+					<key>Test Name</key>
+					<string>testPerformanceExample</string>
+					<key>Test Performance Data</key>
+					<dict>
+						<key>avg</key>
+						<string>7.821000000000002e-07</string>
+						<key>count</key>
+						<string>10</string>
+						<key>first</key>
+						<string>2.998e-06</string>
+						<key>max</key>
+						<string>2.998e-06</string>
+						<key>min</key>
+						<string>4.95e-07</string>
+						<key>performanceMetric</key>
+						<string>Time</string>
+						<key>relativeStandardDeviation</key>
+						<string>94.9</string>
+						<key>stddev</key>
+						<string>7.421352235273569e-07</string>
+						<key>units</key>
+						<string>seconds</string>
+					</dict>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+				<dict>
+					<key>Test Identifier</key>
+					<string>ARMemoryTests/testStrings</string>
+					<key>Test Name</key>
+					<string>testStrings</string>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+				<dict>
+					<key>Test Identifier</key>
+					<string>ArgonTests/testExample</string>
+					<key>Test Name</key>
+					<string>testExample</string>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+				<dict>
+					<key>Test Identifier</key>
+					<string>ArgonTests/testPerformanceExample</string>
+					<key>Test Name</key>
+					<string>testPerformanceExample</string>
+					<key>Test Performance Data</key>
+					<dict>
+						<key>avg</key>
+						<string>6.586000000000001e-07</string>
+						<key>count</key>
+						<string>10</string>
+						<key>first</key>
+						<string>1.808e-06</string>
+						<key>max</key>
+						<string>1.808e-06</string>
+						<key>min</key>
+						<string>5.11e-07</string>
+						<key>performanceMetric</key>
+						<string>Time</string>
+						<key>relativeStandardDeviation</key>
+						<string>58.5</string>
+						<key>stddev</key>
+						<string>3.852680106107955e-07</string>
+						<key>units</key>
+						<string>seconds</string>
+					</dict>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>
